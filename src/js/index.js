@@ -126,3 +126,4 @@ const mensajeBioma = document.getElementById("mensaje-bioma");
 selectorBioma.addEventListener("change", function () {
   mensajeBioma.textContent = "Has viajado al bioma: " + selectorBioma.value;
 });
+console.log("Minecraft Hub cargado");
