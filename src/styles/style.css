@@ -140,5 +140,8 @@ header {
   border-bottom: 4px solid #222;
 }
 button {
-    border-radius: 8px;
+  border-radius: 8px;
+}
+.criatura {
+  box-shadow: 0 0 10px black;
 }
