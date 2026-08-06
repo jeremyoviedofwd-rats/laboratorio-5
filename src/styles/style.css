@@ -89,3 +89,50 @@ button:hover {
 #recolectar {
   background-color: #704214;
 }
+.nivel-jugador {
+  text-align: center;
+
+  padding: 30px;
+}
+
+#nivel {
+  font-size: 30px;
+
+  color: gold;
+}
+.experiencia {
+  text-align: center;
+
+  padding: 30px;
+}
+
+.barra-contenedor {
+  width: 300px;
+
+  height: 30px;
+
+  background-color: #333;
+
+  margin: 0 auto;
+
+  border: 2px solid #111;
+}
+
+#barra-exp {
+  width: 0%;
+
+  height: 100%;
+
+  background-color: limegreen;
+}
+.biomas {
+  text-align: center;
+
+  padding: 30px;
+}
+
+#bioma {
+  padding: 10px;
+
+  margin: 10px;
+}

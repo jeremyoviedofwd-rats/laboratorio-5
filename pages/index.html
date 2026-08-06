@@ -42,6 +42,35 @@
 
         <button id="recolectar">Recolectar bloque</button>
       </section>
+      <section class="nivel-jugador">
+        <h2>⭐ Nivel del jugador</h2>
+
+        <p>
+          Nivel actual:
+          <span id="nivel">1</span>
+        </p>
+
+        <button id="subir-nivel">Ganar experiencia</button>
+      </section>
+      <section class="experiencia">
+        <h2>⚡ Experiencia</h2>
+
+        <div class="barra-contenedor">
+          <div id="barra-exp"></div>
+        </div>
+      </section>
+      <section class="biomas">
+        <h2>🌎 Selecciona un bioma</h2>
+
+        <select id="bioma">
+          <option value="Bosque">Bosque</option>
+          <option value="Desierto">Desierto</option>
+          <option value="Montaña">Montaña</option>
+          <option value="Océano">Océano</option>
+        </select>
+
+        <p id="mensaje-bioma">Explora un nuevo bioma.</p>
+      </section>
     </main>
 
     <script src="/src/js/index.js"></script>

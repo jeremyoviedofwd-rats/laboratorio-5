@@ -95,3 +95,34 @@ botonRecolectar.addEventListener("click", function () {
 
   contador.textContent = bloquesJugador;
 });
+let nivelJugador = 1;
+
+const nivel = document.getElementById("nivel");
+
+const botonNivel = document.getElementById("subir-nivel");
+
+botonNivel.addEventListener("click", function () {
+  nivelJugador++;
+
+  nivel.textContent = nivelJugador;
+});
+let experiencia = 0;
+
+const barraExp = document.getElementById("barra-exp");
+
+botonNivel.addEventListener("click", function () {
+  experiencia += 10;
+
+  if (experiencia > 100) {
+    experiencia = 100;
+  }
+
+  barraExp.style.width = experiencia + "%";
+});
+const selectorBioma = document.getElementById("bioma");
+
+const mensajeBioma = document.getElementById("mensaje-bioma");
+
+selectorBioma.addEventListener("change", function () {
+  mensajeBioma.textContent = "Has viajado al bioma: " + selectorBioma.value;
+});
