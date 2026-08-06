@@ -71,3 +71,8 @@ bloques.forEach(function (bloque) {
 
   contenedorBloques.appendChild(tarjeta);
 });
+const botonEntrada = document.getElementById("entrar");
+
+botonEntrada.addEventListener("click", function () {
+  alert("🌎 Bienvenido al mundo Minecraft");
+});
