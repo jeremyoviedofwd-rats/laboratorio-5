@@ -128,3 +128,4 @@ selectorBioma.addEventListener("change", function () {
 });
 console.log("Minecraft Hub cargado");
 console.log("Sistema de criaturas activo");
+console.log("Sistema de bloques activo");
