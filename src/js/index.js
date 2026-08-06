@@ -119,3 +119,10 @@ botonNivel.addEventListener("click", function () {
 
   barraExp.style.width = experiencia + "%";
 });
+const selectorBioma = document.getElementById("bioma");
+
+const mensajeBioma = document.getElementById("mensaje-bioma");
+
+selectorBioma.addEventListener("change", function () {
+  mensajeBioma.textContent = "Has viajado al bioma: " + selectorBioma.value;
+});
