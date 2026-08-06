@@ -89,3 +89,14 @@ button:hover {
 #recolectar {
   background-color: #704214;
 }
+.nivel-jugador {
+  text-align: center;
+
+  padding: 30px;
+}
+
+#nivel {
+  font-size: 30px;
+
+  color: gold;
+}

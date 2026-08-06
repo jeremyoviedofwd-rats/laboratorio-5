@@ -95,3 +95,14 @@ botonRecolectar.addEventListener("click", function () {
 
   contador.textContent = bloquesJugador;
 });
+let nivelJugador = 1;
+
+const nivel = document.getElementById("nivel");
+
+const botonNivel = document.getElementById("subir-nivel");
+
+botonNivel.addEventListener("click", function () {
+  nivelJugador++;
+
+  nivel.textContent = nivelJugador;
+});
