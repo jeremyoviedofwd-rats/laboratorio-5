@@ -76,3 +76,14 @@ const botonEntrada = document.getElementById("entrar");
 botonEntrada.addEventListener("click", function () {
   alert("🌎 Bienvenido al mundo Minecraft");
 });
+let bloquesJugador = 0;
+
+const contador = document.getElementById("contador");
+
+const botonRecolectar = document.getElementById("recolectar");
+
+botonRecolectar.addEventListener("click", function () {
+  bloquesJugador++;
+
+  contador.textContent = bloquesJugador;
+});
