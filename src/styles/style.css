@@ -36,3 +36,22 @@ button {
 button:hover {
   background-color: #4caf30;
 }
+.criaturas {
+  text-align: center;
+
+  padding: 30px;
+}
+
+.criatura {
+  display: inline-block;
+
+  background-color: #333;
+
+  margin: 10px;
+
+  padding: 20px;
+
+  width: 200px;
+
+  border: 3px solid #111;
+}
