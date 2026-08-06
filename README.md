@@ -20,6 +20,9 @@ Minecraft Hub es una página web inspirada en Minecraft que permite visualizar c
 - CSS3
 - JavaScript
 
+## Enciclopedia
+
+Incluye criaturas, bloques y objetos de Minecraft.
 ## Autor
 
 Jeremy
