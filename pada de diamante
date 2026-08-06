@@ -1,0 +1,19 @@
+[33m779fcf3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/enciclopedia-minecraft[m[33m, [m[1;31morigin/feature/enciclopedia-minecraft[m[33m)[m feat(bloques): agregar ficha de obsidiana
+[33mabc0c26[m feat(bloques): agregar ficha de diamante
+[33m0c45dfe[m feat(mobs): agregar ficha de enderman
+[33m9b1f37f[m feat(mobs): agregar ficha de zombie
+[33m1d4db2d[m feat(mobs): agregar ficha de creeper
+[33mbffe87b[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m Merge pull request #2 from jeremyoviedofwd-rats/feature/aventuras-minecraft
+[33maa8ef2e[m[33m ([m[1;31morigin/feature/aventuras-minecraft[m[33m, [m[1;32mfeature/aventuras-minecraft[m[33m)[m feat(biomas): agregar selector de biomas
+[33m9d7b932[m feat(exp): agregar barra de experiencia
+[33m84b3089[m feat(nivel): agregar sistema de niveles
+[33m7a4f4e1[m Merge pull request #1 from jeremyoviedofwd-rats/feature/agregar-tareas
+[33mcaa8bfa[m[33m ([m[1;31morigin/feature/agregar-tareas[m[33m, [m[1;32mfeature/agregar-tareas[m[33m)[m docs: actualizar documentacion del proyecto
+[33md0f5c54[m fix(inventario): limitar cantidad de bloques
+[33m4eb5000[m feat(recursos): agregar contador de bloques
+[33m0d9ac9c[m feat(interaccion): agregar evento al boton principal
+[33m2b26160[m feat(inventario): agregar catalogo de bloques
+[33m46435de[m feat(mobs): agregar catalogo de criaturas
+[33m21abdb2[m style(ui): agregar diseño minecraft
+[33me26a62a[m feat(ui): crear interfaz principal minecraft
+[33m350b711[m chore: crear estructura inicial del proyecto
