@@ -136,3 +136,6 @@ button:hover {
 
   margin: 10px;
 }
+header {
+  border-bottom: 4px solid #222;
+}
