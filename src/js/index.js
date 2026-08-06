@@ -78,11 +78,19 @@ botonEntrada.addEventListener("click", function () {
 });
 let bloquesJugador = 0;
 
+const limiteInventario = 64;
+
 const contador = document.getElementById("contador");
 
 const botonRecolectar = document.getElementById("recolectar");
 
 botonRecolectar.addEventListener("click", function () {
+  if (bloquesJugador >= limiteInventario) {
+    alert("⚠️ Inventario lleno");
+
+    return;
+  }
+
   bloquesJugador++;
 
   contador.textContent = bloquesJugador;
