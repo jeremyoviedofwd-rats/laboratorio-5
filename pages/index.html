@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minecraft Hub</title>
+    <link rel="stylesheet" href="/src/styles/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>⛏ Minecraft Hub</h1>
+      <p>Explora el mundo de Minecraft</p>
+    </header>
+
+    <main>
+      <section class="minecraft-card">
+        <h2>Bienvenido Steve</h2>
+
+        <p>Gestiona tus recursos, criaturas y aventuras.</p>
+
+        <button id="entrar">Entrar al mundo</button>
+      </section>
+
+      <section class="criaturas">
+        <h2>🧟 Criaturas Minecraft</h2>
+
+        <div id="lista-criaturas"></div>
+      </section>
+      <section class="inventario">
+        <h2>⛏ Inventario de bloques</h2>
+
+        <div id="lista-bloques"></div>
+      </section>
+      <section class="recursos">
+        <h2>📦 Recursos del jugador</h2>
+
+        <p>
+          Bloques recolectados:
+          <span id="contador">0</span>
+        </p>
+
+        <button id="recolectar">Recolectar bloque</button>
+      </section>
+    </main>
+
+    <script src="/src/js/index.js"></script>
+  </body>
+</html>
