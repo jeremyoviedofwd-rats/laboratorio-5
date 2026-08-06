@@ -32,3 +32,42 @@ criaturas.forEach(function (criatura) {
 
   contenedor.appendChild(tarjeta);
 });
+const bloques = [
+  {
+    nombre: "Diamante",
+    nivel: "Raro",
+  },
+
+  {
+    nombre: "Madera",
+    nivel: "Común",
+  },
+
+  {
+    nombre: "Piedra",
+    nivel: "Común",
+  },
+
+  {
+    nombre: "Obsidiana",
+    nivel: "Difícil de romper",
+  },
+];
+
+const contenedorBloques = document.getElementById("lista-bloques");
+
+bloques.forEach(function (bloque) {
+  const tarjeta = document.createElement("div");
+
+  tarjeta.classList.add("bloque");
+
+  tarjeta.innerHTML = `
+
+<h3>${bloque.nombre}</h3>
+
+<p>${bloque.nivel}</p>
+
+`;
+
+  contenedorBloques.appendChild(tarjeta);
+});
