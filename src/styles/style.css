@@ -139,3 +139,6 @@ button:hover {
 header {
   border-bottom: 4px solid #222;
 }
+button {
+    border-radius: 8px;
+}
