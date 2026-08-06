@@ -106,3 +106,16 @@ botonNivel.addEventListener("click", function () {
 
   nivel.textContent = nivelJugador;
 });
+let experiencia = 0;
+
+const barraExp = document.getElementById("barra-exp");
+
+botonNivel.addEventListener("click", function () {
+  experiencia += 10;
+
+  if (experiencia > 100) {
+    experiencia = 100;
+  }
+
+  barraExp.style.width = experiencia + "%";
+});
